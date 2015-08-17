@@ -1,0 +1,6 @@
+framework module PGLContacts {
+  umbrella header "PGLContacts-umbrella.h"
+
+  export *
+  module * { export * }
+}

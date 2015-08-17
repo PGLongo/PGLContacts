@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12668A5C1B78EE1A0040899D /* CNContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12668A591B78EE1A0040899D /* CNContact.swift */; };
+		12668A5D1B78EE1A0040899D /* CNContactFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12668A5A1B78EE1A0040899D /* CNContactFetchRequest.swift */; };
+		12668A5E1B78EE1A0040899D /* CNContactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12668A5B1B78EE1A0040899D /* CNContactStore.swift */; };
+		12668A601B78EE200040899D /* PGLContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12668A5F1B78EE200040899D /* PGLContacts.swift */; };
+		3F4E337E0D8BC8F4C41F46F907762287 /* Pods-PGLContacts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F981D3D6FB9CD2326D584E5FFE796BFE /* Pods-PGLContacts_Example-dummy.m */; };
+		5C312C22784547CFAE2DC56499A4B4EB /* PGLContacts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE7C264FCD00B34D6EA7C0EFF4C89FE /* PGLContacts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AA251026DAF76F8FC959995E01F551C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFE2D5C3A30E50DBE3975B41521FDD5 /* Foundation.framework */; };
+		735D1C39C7C5847AEDD9E3CE18DC27A4 /* Pods-PGLContacts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB16A37F6CE1B8412618C4569ABE1907 /* Pods-PGLContacts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89637F56683F37E8359DF2A0ACEBA1FF /* Pods-PGLContacts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0618259A6228561245FB98AA9FD4A996 /* Pods-PGLContacts_Tests-dummy.m */; };
+		8BF680ABB54B1526F12200D8814F5561 /* PGLContacts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9139DF7B187EF73B522E7B838280AC /* PGLContacts-dummy.m */; };
+		A582E9283A153FB254CEDDB78AE479B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFE2D5C3A30E50DBE3975B41521FDD5 /* Foundation.framework */; };
+		A97D79343886CE4C330B3779B1F52CC3 /* PGLContacts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40B8EC0348AC109CF68BA8F8EF28EEE1 /* PGLContacts.bundle */; };
+		E85E0150F00E960A78FCFF1F2C75E5B0 /* Pods-PGLContacts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9219F57B500A8206D6A61E409BC8A5C /* Pods-PGLContacts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F747B5396E3E82FC7AC8917564EC803C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFE2D5C3A30E50DBE3975B41521FDD5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C3A35C51D3CC048700CEEFE7E9CEEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB43ADD11DBC1BBD99EB4F3490061E8E;
+			remoteInfo = PGLContacts;
+		};
+		744A3AFCD1E78BD1070BA2E2F1C86A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B365AF2B60727F69AFEEF61C740EBC;
+			remoteInfo = "PGLContacts-PGLContacts";
+		};
+		B21CF0AE8949FB75D1F9017AB166F148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB43ADD11DBC1BBD99EB4F3490061E8E;
+			remoteInfo = PGLContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0618259A6228561245FB98AA9FD4A996 /* Pods-PGLContacts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGLContacts_Tests-dummy.m"; sourceTree = "<group>"; };
+		06D23BE9618AB2DA703BE183BA44356E /* PGLContacts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGLContacts-prefix.pch"; sourceTree = "<group>"; };
+		089C88E9BC48B20E1F50C5D66217F924 /* Pods-PGLContacts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGLContacts_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0924ED7AD6A6FD5B39F1B080F5E38B52 /* Pods-PGLContacts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGLContacts_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0B7D676A71A85FBAEA72D47DFEE4BDD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1037E6A2A752221C836C0D520688003E /* PGLContacts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PGLContacts.modulemap; sourceTree = "<group>"; };
+		12668A591B78EE1A0040899D /* CNContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact.swift; sourceTree = "<group>"; };
+		12668A5A1B78EE1A0040899D /* CNContactFetchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactFetchRequest.swift; sourceTree = "<group>"; };
+		12668A5B1B78EE1A0040899D /* CNContactStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore.swift; sourceTree = "<group>"; };
+		12668A5F1B78EE200040899D /* PGLContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGLContacts.swift; sourceTree = "<group>"; };
+		19A46CF415D0437CEF5F1545BD8E003C /* Pods-PGLContacts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGLContacts_Example-resources.sh"; sourceTree = "<group>"; };
+		1E935B3724314370BC73CC4BF9474CE1 /* PGLContacts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGLContacts.xcconfig; sourceTree = "<group>"; };
+		24A93C46A7BE880444E4019708016EF4 /* Pods-PGLContacts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PGLContacts_Example.modulemap"; sourceTree = "<group>"; };
+		283FA21B8212EE6AE21909FA25574EC3 /* Pods-PGLContacts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGLContacts_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2AE7C264FCD00B34D6EA7C0EFF4C89FE /* PGLContacts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGLContacts-umbrella.h"; sourceTree = "<group>"; };
+		3322CF720DEB44C6B9711D08DA3B3517 /* Pods-PGLContacts_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGLContacts_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3FB5157331EF6CD3FD6C358471F13786 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B8EC0348AC109CF68BA8F8EF28EEE1 /* PGLContacts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGLContacts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE4867AD5FFDEF51E74D9F428D558F /* PGLContacts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PGLContacts-Private.xcconfig"; sourceTree = "<group>"; };
+		4F9139DF7B187EF73B522E7B838280AC /* PGLContacts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGLContacts-dummy.m"; sourceTree = "<group>"; };
+		4FC6C1F94DA21B1A2075DA64079A6544 /* Pods-PGLContacts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGLContacts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6842A6D74C4510E04832E1A900981867 /* Pods-PGLContacts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGLContacts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70616075FA863BC79F53C85C02CDE85C /* Pods_PGLContacts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGLContacts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D61E6A63E20D83FE3947DCAC9D9302 /* Pods_PGLContacts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGLContacts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AC2A427F6F6AFD9C20915EB4AC1A3F /* Pods-PGLContacts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGLContacts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC37537EBEAE4EE80120BC1C6B21D56 /* PGLContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGLContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9A33F7528AC61C989FC790F7313283 /* Pods-PGLContacts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGLContacts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFFE2D5C3A30E50DBE3975B41521FDD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB16A37F6CE1B8412618C4569ABE1907 /* Pods-PGLContacts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGLContacts_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEFB433BCA205D3939B3F1970C10A1F9 /* Pods-PGLContacts_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGLContacts_Tests-resources.sh"; sourceTree = "<group>"; };
+		E013CFEFA02EF61E0E097C2A09FCB69F /* Pods-PGLContacts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PGLContacts_Tests.modulemap"; sourceTree = "<group>"; };
+		E57A2732587A532E447EBA79B6D82C1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9219F57B500A8206D6A61E409BC8A5C /* Pods-PGLContacts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGLContacts_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECCB34C9BAD57C55F996C5CC01FDA996 /* Pods-PGLContacts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGLContacts_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F2078AD658F10FE0D425B2CDEE536B24 /* Pods-PGLContacts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGLContacts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F981D3D6FB9CD2326D584E5FFE796BFE /* Pods-PGLContacts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGLContacts_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5536C3DC34D29DB66FB6626E5874EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A582E9283A153FB254CEDDB78AE479B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B4F0420C45D7C75B489E0D3CEAC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F747B5396E3E82FC7AC8917564EC803C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F04193F383E958D4198B05FE7CC298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA251026DAF76F8FC959995E01F551C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C715717CD3105D0824274363A07F65B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12668A581B78EE1A0040899D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12668A591B78EE1A0040899D /* CNContact.swift */,
+				12668A5A1B78EE1A0040899D /* CNContactFetchRequest.swift */,
+				12668A5B1B78EE1A0040899D /* CNContactStore.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3821BC4D01A2252FE342EB40A2C3C71D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57A2732587A532E447EBA79B6D82C1A /* Info.plist */,
+				1037E6A2A752221C836C0D520688003E /* PGLContacts.modulemap */,
+				1E935B3724314370BC73CC4BF9474CE1 /* PGLContacts.xcconfig */,
+				4BCE4867AD5FFDEF51E74D9F428D558F /* PGLContacts-Private.xcconfig */,
+				4F9139DF7B187EF73B522E7B838280AC /* PGLContacts-dummy.m */,
+				06D23BE9618AB2DA703BE183BA44356E /* PGLContacts-prefix.pch */,
+				2AE7C264FCD00B34D6EA7C0EFF4C89FE /* PGLContacts-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PGLContacts";
+			sourceTree = "<group>";
+		};
+		45687DA24044801B7A2A9FC2ABF9E550 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3323FAEB61B66B59548731773A8306F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE2D5C3A30E50DBE3975B41521FDD5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C295B1230154BB3DB8F2D5D673D4A662 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				FAFC231B35B98DD1B762B3472197DAF8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3323FAEB61B66B59548731773A8306F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12668A5F1B78EE200040899D /* PGLContacts.swift */,
+				12668A581B78EE1A0040899D /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A75D9A1343CE31069FFA0673E91290A7 /* Pods-PGLContacts_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D676A71A85FBAEA72D47DFEE4BDD8 /* Info.plist */,
+				E013CFEFA02EF61E0E097C2A09FCB69F /* Pods-PGLContacts_Tests.modulemap */,
+				4FC6C1F94DA21B1A2075DA64079A6544 /* Pods-PGLContacts_Tests-acknowledgements.markdown */,
+				BD9A33F7528AC61C989FC790F7313283 /* Pods-PGLContacts_Tests-acknowledgements.plist */,
+				0618259A6228561245FB98AA9FD4A996 /* Pods-PGLContacts_Tests-dummy.m */,
+				3322CF720DEB44C6B9711D08DA3B3517 /* Pods-PGLContacts_Tests-frameworks.sh */,
+				DEFB433BCA205D3939B3F1970C10A1F9 /* Pods-PGLContacts_Tests-resources.sh */,
+				DB16A37F6CE1B8412618C4569ABE1907 /* Pods-PGLContacts_Tests-umbrella.h */,
+				F2078AD658F10FE0D425B2CDEE536B24 /* Pods-PGLContacts_Tests.debug.xcconfig */,
+				089C88E9BC48B20E1F50C5D66217F924 /* Pods-PGLContacts_Tests.release.xcconfig */,
+			);
+			name = "Pods-PGLContacts_Tests";
+			path = "Target Support Files/Pods-PGLContacts_Tests";
+			sourceTree = "<group>";
+		};
+		AE408977D039D45FDFF4EBEAAB29A44A /* PGLContacts */ = {
+			isa = PBXGroup;
+			children = (
+				45687DA24044801B7A2A9FC2ABF9E550 /* Pod */,
+				3821BC4D01A2252FE342EB40A2C3C71D /* Support Files */,
+			);
+			name = PGLContacts;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C295B1230154BB3DB8F2D5D673D4A662 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE408977D039D45FDFF4EBEAAB29A44A /* PGLContacts */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B8EC0348AC109CF68BA8F8EF28EEE1 /* PGLContacts.bundle */,
+				BAC37537EBEAE4EE80120BC1C6B21D56 /* PGLContacts.framework */,
+				94D61E6A63E20D83FE3947DCAC9D9302 /* Pods_PGLContacts_Example.framework */,
+				70616075FA863BC79F53C85C02CDE85C /* Pods_PGLContacts_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E006183307C017E0933EC41B17464C91 /* Pods-PGLContacts_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5157331EF6CD3FD6C358471F13786 /* Info.plist */,
+				24A93C46A7BE880444E4019708016EF4 /* Pods-PGLContacts_Example.modulemap */,
+				6842A6D74C4510E04832E1A900981867 /* Pods-PGLContacts_Example-acknowledgements.markdown */,
+				B0AC2A427F6F6AFD9C20915EB4AC1A3F /* Pods-PGLContacts_Example-acknowledgements.plist */,
+				F981D3D6FB9CD2326D584E5FFE796BFE /* Pods-PGLContacts_Example-dummy.m */,
+				ECCB34C9BAD57C55F996C5CC01FDA996 /* Pods-PGLContacts_Example-frameworks.sh */,
+				19A46CF415D0437CEF5F1545BD8E003C /* Pods-PGLContacts_Example-resources.sh */,
+				E9219F57B500A8206D6A61E409BC8A5C /* Pods-PGLContacts_Example-umbrella.h */,
+				283FA21B8212EE6AE21909FA25574EC3 /* Pods-PGLContacts_Example.debug.xcconfig */,
+				0924ED7AD6A6FD5B39F1B080F5E38B52 /* Pods-PGLContacts_Example.release.xcconfig */,
+			);
+			name = "Pods-PGLContacts_Example";
+			path = "Target Support Files/Pods-PGLContacts_Example";
+			sourceTree = "<group>";
+		};
+		FAFC231B35B98DD1B762B3472197DAF8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E006183307C017E0933EC41B17464C91 /* Pods-PGLContacts_Example */,
+				A75D9A1343CE31069FFA0673E91290A7 /* Pods-PGLContacts_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B3A883D41CB87BFB47FC3863B15B930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735D1C39C7C5847AEDD9E3CE18DC27A4 /* Pods-PGLContacts_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30A93F8890BB2B05E96851185EED2E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C312C22784547CFAE2DC56499A4B4EB /* PGLContacts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBC3A0254112D542B22A746A597AF03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85E0150F00E960A78FCFF1F2C75E5B0 /* Pods-PGLContacts_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15C114C278C849ED7894D821C03DDE2F /* Pods-PGLContacts_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4CC7D58DD9227AFE57E0FAC38A19E4 /* Build configuration list for PBXNativeTarget "Pods-PGLContacts_Tests" */;
+			buildPhases = (
+				7096934CA89A39139792DB7CC437C624 /* Sources */,
+				911B4F0420C45D7C75B489E0D3CEAC0B /* Frameworks */,
+				8B3A883D41CB87BFB47FC3863B15B930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DCFABE312BECA1A264027B45714A171 /* PBXTargetDependency */,
+			);
+			name = "Pods-PGLContacts_Tests";
+			productName = "Pods-PGLContacts_Tests";
+			productReference = 70616075FA863BC79F53C85C02CDE85C /* Pods_PGLContacts_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35B365AF2B60727F69AFEEF61C740EBC /* PGLContacts-PGLContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6954C687E26140FACD8A801D80F4A /* Build configuration list for PBXNativeTarget "PGLContacts-PGLContacts" */;
+			buildPhases = (
+				12AAA1A25653942FEDBB8EDD5E21A676 /* Sources */,
+				C715717CD3105D0824274363A07F65B1 /* Frameworks */,
+				22C2447EF9C8407D7A56E1C276C8A3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PGLContacts-PGLContacts";
+			productName = "PGLContacts-PGLContacts";
+			productReference = 40B8EC0348AC109CF68BA8F8EF28EEE1 /* PGLContacts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AB65E703960B805F9FE2E22548953930 /* Pods-PGLContacts_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE34D28A45B5257737AEA8929635986 /* Build configuration list for PBXNativeTarget "Pods-PGLContacts_Example" */;
+			buildPhases = (
+				E9BFAB6BD43E4C8CD2FF0FC7C411F49D /* Sources */,
+				94F04193F383E958D4198B05FE7CC298 /* Frameworks */,
+				EDBC3A0254112D542B22A746A597AF03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69878DB11354309EE33303A2FC6FA771 /* PBXTargetDependency */,
+			);
+			name = "Pods-PGLContacts_Example";
+			productName = "Pods-PGLContacts_Example";
+			productReference = 94D61E6A63E20D83FE3947DCAC9D9302 /* Pods_PGLContacts_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB43ADD11DBC1BBD99EB4F3490061E8E /* PGLContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291CAFF6CACC7ACCBC0BF464865D86CC /* Build configuration list for PBXNativeTarget "PGLContacts" */;
+			buildPhases = (
+				A913BD00A183D48C12EBB1B115690EFA /* Sources */,
+				2B5536C3DC34D29DB66FB6626E5874EF /* Frameworks */,
+				1BE915F1BBA0448B718E1B97DDEEAAEE /* Resources */,
+				C30A93F8890BB2B05E96851185EED2E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A59FC0675676AAAF8190A8457BE4070 /* PBXTargetDependency */,
+			);
+			name = PGLContacts;
+			productName = PGLContacts;
+			productReference = BAC37537EBEAE4EE80120BC1C6B21D56 /* PGLContacts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB43ADD11DBC1BBD99EB4F3490061E8E /* PGLContacts */,
+				35B365AF2B60727F69AFEEF61C740EBC /* PGLContacts-PGLContacts */,
+				AB65E703960B805F9FE2E22548953930 /* Pods-PGLContacts_Example */,
+				15C114C278C849ED7894D821C03DDE2F /* Pods-PGLContacts_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE915F1BBA0448B718E1B97DDEEAAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97D79343886CE4C330B3779B1F52CC3 /* PGLContacts.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C2447EF9C8407D7A56E1C276C8A3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AAA1A25653942FEDBB8EDD5E21A676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7096934CA89A39139792DB7CC437C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89637F56683F37E8359DF2A0ACEBA1FF /* Pods-PGLContacts_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BD00A183D48C12EBB1B115690EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12668A5D1B78EE1A0040899D /* CNContactFetchRequest.swift in Sources */,
+				12668A601B78EE200040899D /* PGLContacts.swift in Sources */,
+				12668A5E1B78EE1A0040899D /* CNContactStore.swift in Sources */,
+				8BF680ABB54B1526F12200D8814F5561 /* PGLContacts-dummy.m in Sources */,
+				12668A5C1B78EE1A0040899D /* CNContact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BFAB6BD43E4C8CD2FF0FC7C411F49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4E337E0D8BC8F4C41F46F907762287 /* Pods-PGLContacts_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A59FC0675676AAAF8190A8457BE4070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PGLContacts-PGLContacts";
+			target = 35B365AF2B60727F69AFEEF61C740EBC /* PGLContacts-PGLContacts */;
+			targetProxy = 744A3AFCD1E78BD1070BA2E2F1C86A52 /* PBXContainerItemProxy */;
+		};
+		69878DB11354309EE33303A2FC6FA771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGLContacts;
+			target = EB43ADD11DBC1BBD99EB4F3490061E8E /* PGLContacts */;
+			targetProxy = B21CF0AE8949FB75D1F9017AB166F148 /* PBXContainerItemProxy */;
+		};
+		8DCFABE312BECA1A264027B45714A171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGLContacts;
+			target = EB43ADD11DBC1BBD99EB4F3490061E8E /* PGLContacts */;
+			targetProxy = 2C3A35C51D3CC048700CEEFE7E9CEEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA6C203843C9368498A5FE17598E5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2078AD658F10FE0D425B2CDEE536B24 /* Pods-PGLContacts_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PGLContacts_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PGLContacts_Tests/Pods-PGLContacts_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PGLContacts_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		59BE9EF463B2CD940A6648F6C497A921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0924ED7AD6A6FD5B39F1B080F5E38B52 /* Pods-PGLContacts_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PGLContacts_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PGLContacts_Example/Pods-PGLContacts_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PGLContacts_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70A0DF978BFFB2ADF3F95EEE9745693C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283FA21B8212EE6AE21909FA25574EC3 /* Pods-PGLContacts_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PGLContacts_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PGLContacts_Example/Pods-PGLContacts_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PGLContacts_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA14E60D54C3C399F9697577E6CB2319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCE4867AD5FFDEF51E74D9F428D558F /* PGLContacts-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGLContacts/PGLContacts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGLContacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGLContacts/PGLContacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PGLContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2FFD7DE22133AE59C087F9C53D847B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCE4867AD5FFDEF51E74D9F428D558F /* PGLContacts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PGLContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E18B0FD7E54E3B289E74C5DB88B07B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCE4867AD5FFDEF51E74D9F428D558F /* PGLContacts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PGLContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F1F500B75E63B31682E3FACDC73E3718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089C88E9BC48B20E1F50C5D66217F924 /* Pods-PGLContacts_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PGLContacts_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PGLContacts_Tests/Pods-PGLContacts_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PGLContacts_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE14FBBA148D036F40DD3DCD856EDD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCE4867AD5FFDEF51E74D9F428D558F /* PGLContacts-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGLContacts/PGLContacts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGLContacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGLContacts/PGLContacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PGLContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4CC7D58DD9227AFE57E0FAC38A19E4 /* Build configuration list for PBXNativeTarget "Pods-PGLContacts_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6C203843C9368498A5FE17598E5A8 /* Debug */,
+				F1F500B75E63B31682E3FACDC73E3718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291CAFF6CACC7ACCBC0BF464865D86CC /* Build configuration list for PBXNativeTarget "PGLContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA14E60D54C3C399F9697577E6CB2319 /* Debug */,
+				FE14FBBA148D036F40DD3DCD856EDD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6954C687E26140FACD8A801D80F4A /* Build configuration list for PBXNativeTarget "PGLContacts-PGLContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FFD7DE22133AE59C087F9C53D847B4 /* Debug */,
+				E18B0FD7E54E3B289E74C5DB88B07B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE34D28A45B5257737AEA8929635986 /* Build configuration list for PBXNativeTarget "Pods-PGLContacts_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A0DF978BFFB2ADF3F95EEE9745693C /* Debug */,
+				59BE9EF463B2CD940A6648F6C497A921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

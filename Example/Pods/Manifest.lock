@@ -1,0 +1,14 @@
+PODS:
+  - PGLContacts (0.1.0)
+
+DEPENDENCIES:
+  - PGLContacts (from `../`)
+
+EXTERNAL SOURCES:
+  PGLContacts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PGLContacts: a9594a3553a58170ac61dcafc27b2378e563c3b1
+
+COCOAPODS: 0.38.2

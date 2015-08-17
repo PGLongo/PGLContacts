@@ -1,0 +1,6 @@
+framework module Pods_PGLContacts_Example {
+  umbrella header "Pods-PGLContacts_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
